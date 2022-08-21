@@ -48,9 +48,40 @@
         </div>
       </div>
     </nav>
+    <!-- Main cuerpo de pagina contacto -->
 
+    <main>
+      <div class="conteiner-fluid py-3 mx-5">
+        <div class="mb-4 border-bottom">
+          <h1 class="fs-4">Contacto</h1>
+        </div>
 
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <form class="form " method="post" action="" autocomplete="off">
+              <div class="mb-3">
+                <label for="Nombre y apellido" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" autofocus>
+              </div>
+              <div class="mb-3">
+                <label for="Email" class="form-label">Correo electronico</label>
+                <input type="text" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="Asunto" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="asunto" name="asunto" required>
+              </div>
+              <div class="mb-3">
+                <label for="Mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" name="mensaje" id="mensaje" rows="5" required></textarea>
+              </div>
+              <button type="submit" name="submit" class="btn btn-primary">Enviar...</button>
+            </form>
 
+          </div>
+        </div>
+      </div>
+    </main>
 
     <!-- Pie de Pagina -->
 
