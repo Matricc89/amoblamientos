@@ -15,7 +15,7 @@
     <!-- Header y Barra de Navegacion -->
 
     <header>
-        <nav class="navbar navbar-expand-md bg-light">
+        <nav class="navbar navbar-expand-md bg-light ">
             <div class="container-fluid navegacion">
                 <a class="navbar-brand" href="./index.html">
                     <img src="./img/logo.png" alt="logo" width="150px" height="150">
@@ -27,22 +27,23 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav mx-auto">
-                        <li class="nav-item">
+                        <li class="nav-item navestilo">
                             <a class="nav-link active colorlink" aria-current="page" href="./index.html">Inicio</a>
                         </li>
 
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown navestilo">
                             <a class="nav-link dropdown-toggle colorlink  " href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Productos
                             </a>
                             <ul class="dropdown-menu fondo ">
                                 <li><a class="dropdown-item colorlink" href="./pages/baño.html">Muebles de Baño</a></li>
-                                <li><a class="dropdown-item colorlink" href="./pages/cocina.html">Muebles Cocina</a></li>
+                                <li><a class="dropdown-item colorlink" href="./pages/cocina.html">Muebles Cocina</a>
+                                </li>
                                 <li><a class="dropdown-item colorlink" href="./pages/placares.html">Placares</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item navestilo">
                             <a class="nav-link colorlink" href="./pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
@@ -52,11 +53,94 @@
         </nav>
     </header>
 
+    <!-- Main carrousel -->
 
+    <main class="main">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide ancho-carrusel  " data-bs-ride="carousel">
 
+            <div class="carousel-inner ">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./img/cocina.jpg" class="d-block w-100" alt="cocina">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cocina</h5>
+                        <p>Realizamos trabajos a medidas.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./img/bano2.jpg" class="d-block w-100" alt="baño">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Baños</h5>
+                        <p>Realizamos trabajos a medidas.</p>
+                    </div>
+                </div>
 
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
+        <!-- Main cards -->
 
+        <h1> Nuestros Productos</h1>
+        <div class="container mt-5">
+
+            <div class="row cards">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/placar-card1.jpg" class="card-img-top" alt="Placares">
+                    <div class="card-body">
+                        <h5 class="card-title">Placares</h5>
+                        <p class="card-text">Realizamos todo tipo de trabajos en melamina y perfiles de aluminio
+                            totalmente a medidas.</p>
+                        <a href="./pages/placares.html" class="btn color-boton">Ver mas...</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/bano-card2.jpg" class="card-img-top" alt="Baños">
+                    <div class="card-body">
+                        <h5 class="card-title">Baños</h5>
+                        <p class="card-text">Realizamos todo tipo de trabajos en melamina y perfiles de aluminio
+                            totalmente a medidas.</p>
+                        <a href="./pages/baño.html" class="btn color-boton">Ver mas...</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/cocina2 -card.jpg" class="card-img-top" alt="cocina">
+                    <div class="card-body">
+                        <h5 class="card-title">Cocinas</h5>
+                        <p class="card-text">Realizamos todo tipo de trabajos en melamina y perfiles de aluminio
+                            totalmente a medidas.</p>
+                        <a href="./pages/cocina.html" class="btn color-boton">Ver mas...</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Pie de Pagina -->
+    
+    <footer>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid justify-content-center footerlist">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/logo.png" alt="" width="150" height="150" class="d-inline-block align-text-center">
+    
+                </a>
+                <a class="navbar-brand" href="#"> Instagram On click</a>
+            </div>
+    
+        </nav>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

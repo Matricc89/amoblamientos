@@ -2,9 +2,14 @@
 .navegacion{
     background-color: rgb(124, 89, 57);
 }
-.nav{
+
+.navestilo{
     background-color: rgb(202, 127, 56);
     border-radius: 20px;
+    margin-left: 5px;
+}
+.navbar{
+    padding: 0;
 }
 .fondo{
     background-color: rgb(202, 127, 56);
@@ -16,7 +21,39 @@
 
 /*Estilos Main*/
 
+.ancho-carrusel{
+    width: 70vw;
+    margin: 0 auto;
+}
+.main h1{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 50px;
+}
+.cards{
+    
+    justify-content: space-around;
+}
 
-
+.color-boton{
+    background-color: rgb(202, 197, 197);
+    color: black;
+    
+}
+.btn:hover{
+    color: black;
+    background-color: rgb(22, 111, 170);
+    border-color: var(--bs--btn-hover-color);
+}
 
 /*Estilos Footer*/
+
+.footerlist{
+    background-color: rgb(124, 89, 57);
+    
+}
+.footerlist a{
+    
+    text-decoration: underline;
+    font-weight: bolder;
+}
