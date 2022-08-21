@@ -34,6 +34,7 @@
 .cards{
     
     justify-content: space-around;
+    padding-bottom: 25px;
 }
 
 .color-boton{
@@ -46,11 +47,15 @@
     background-color: rgb(22, 111, 170);
     border-color: var(--bs--btn-hover-color);
 }
+.main-cont{
+    background-color: rgba(255, 180, 81, 0.808);
+    
+}
 
 /*Estilos Footer*/
 
 .footerlist{
-    background-color: rgb(124, 89, 57);
+    background-color: rgb(124, 89, 56);
     
 }
 .footerlist a{
